@@ -1,69 +1,27 @@
-# React + TypeScript + Vite
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/XKM9mJg7)
+# Torneo Peor UI/UX 🎨🧨
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+¡Bienvenid@ al ~~mejor~~ peor torneo del DCC! 😻
 
-Currently, two official plugins are available:
+Tu objetivo será crear una Interfaz Grafica absurdamente incomoda, frustrante y divertida de usar para un usuario.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Categoria: Libre 🧠
+- En esta categoría, eres libre de crear la peor interfaz UI/UX jamas vista (de cualquier tipo)
+- Eres libre de realizarla como gustes, porfavor seguir las reglas del torneo para no ser descalificado
 
-## Expanding the ESLint configuration
+## Reglas Generales 👮🏻‍♂️
+- Las Bases del torneo se encuentran en : https://github.com/Antihackathon-Worst-UI-UX/antihackathon-template
+- No se permite contenido ofensivo, violento, racista, sexista, xenofóbico, homofóbico o irrespetuoso 😾
+- Solo puedes usar este repositorio para tu proyecto
+- Modificar solo el README para presentar el link donde alojes tu UI
+- Tu codigo debe estar en la carpeta `src/`: index.html + styles.css + app.js (estos ultimos 2 opcionales)
+- Para poder participar, tu aplicacion tiene que funcionar
+- Si bien la experiencia de usuario debe ser frustrante y/o divertida, tu UI tiene que cumplir con su objetivo
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Entrega ✅
+- Este repositorio será revisado por los jueces al termino de la competencia: *Martes 19 Agosto - 23:59*
+- Link Deploy = [Remplazar por el link donde tenga hosteada su UI]
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+¡Buena suerte ~~buen~~ mal diseñador/a 🧑🏻‍🎨👨🏻‍🎨!
