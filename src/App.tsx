@@ -1,13 +1,12 @@
-import { useState } from 'react'
-import clippi from '/clipi.png'
 import './App.css'
 import Title from "./components/title.tsx";
+import Clippy from "./components/clippy/clippy.tsx";
 
 function App() {
     return (
     <>
         <Title/>
-
+        <Clippy/>
     </>
   )
 }

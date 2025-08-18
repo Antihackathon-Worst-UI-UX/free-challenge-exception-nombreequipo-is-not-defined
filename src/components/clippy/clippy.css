@@ -1,0 +1,10 @@
+.clippy-image {
+    width: 50vh;
+    height: auto;
+}
+
+.clippy-container {
+    bottom: 0;
+    right: 0;
+    position: fixed;
+}
